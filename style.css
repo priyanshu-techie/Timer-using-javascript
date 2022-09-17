@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+.vals {
+    width: 29px;
+    padding: .5rem;
+    margin-right: 1rem;
+}
+
+.submit {
+    margin-top: 2rem;
+}
+.invisible{
+    display:none;
+}
+
+#timebox {
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+#updwn {
+    display: inline-flex;
+    height: 52px;
+    width: 26px;
+    position: relative;
+    bottom: 10px;
+    flex-direction: column;
+
+}
+
+.upbtn {
+    transform: rotate(-90deg);
+    margin-bottom: 15px;
+
+
+}
+
+.downbtn {
+    transform: rotate(90deg);
+
+}

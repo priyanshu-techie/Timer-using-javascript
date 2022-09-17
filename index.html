@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Start the timer</h1>
+    <h3>set the time</h3>
+    <label for="input">Hours</label>
+    <input type="text" class="vals" id="hrs" value="00">
+
+    <div id="updwn">
+        <input type="button" value=">" class="upbtn" id="upbtnH">
+        <input type="button" value='>' class="downbtn" id="downbtnH">
+    </div>
+
+    <label for="input">Minute</label>
+    <input type="text" class="vals" id="min" value="00">
+
+    <div id="updwn">
+        <input type="button" value=">" class="upbtn" id="upbtnM">
+        <input type="button" value='>' class="downbtn" id="downbtnM">
+    </div>
+
+    <label for="input">Seconds</label>
+    <input type="text" class="vals" id="sec" value="00">
+
+    <div id="updwn">
+        <input type="button" value=">" class="upbtn" id="upbtnS">
+        <input type="button" value='>' class="downbtn" id="downbtnS">
+    </div>
+    <!-- chalu batan -->
+    <div>
+        <input type="button" value="start" class="submit inv" id="start">
+        <input type="button" value="pause" class="submit" id="pause">
+        <input type="button" value="reset" class="submit" id="reset">
+    </div>
+
+    <p id="timebox">
+        00:00:00
+    </p>
+
+    <br>
+    <audio src="timerEnd.m4a" id="thesrc"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
